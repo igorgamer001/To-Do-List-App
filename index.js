@@ -7,8 +7,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-
-
 function readTodos() {
   if (fs.existsSync(filePath)) {
     const data = fs.readFileSync(filePath, 'utf-8');
